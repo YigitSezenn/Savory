@@ -13,7 +13,7 @@ if (!publishableKey) {
 export default function RootLayout() {
   return (
     <ClerkProvider publishableKey={publishableKey} tokenCache={tokenCache}>
-      <Stack initialRouteName="(auth)" />
+      <Stack initialRouteName="(tabs)" />
     </ClerkProvider>
   );
 }
